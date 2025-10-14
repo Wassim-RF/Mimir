@@ -1,0 +1,18 @@
+@media (max-width : 600px) {
+    .siteHeader {
+        padding-top: 20px;
+    }
+
+
+    .webTitle {
+        padding-left: 15px;
+    }
+
+    .pagesLinks {
+        width: 50px;
+        height: 25px;
+        font-weight: 75;
+        padding-left: 15px;
+    }
+
+}

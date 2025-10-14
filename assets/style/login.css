@@ -1,0 +1,163 @@
+.loginMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px
+}
+
+.registerPartie {
+    width: 300px;
+    height: 580px;
+    background: #54BAB9;
+    z-index: 10;
+}
+
+.registerPartie2 {
+    width: 300px;
+    height: 580px;
+    background: #54BAB9;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+.registerPartie3 {
+    width: 300px;
+    height: 580px;
+    background: #54BAB9;
+    position: absolute;
+    left: 307px;
+    top: 142px;
+}
+
+.loginPartie {
+    width: 640px;
+    height: 580px;
+    background: #E9DAC1;
+    z-index: 10;
+}
+
+.loginPartie2 {
+    width: 640px;
+    height: 580px;
+    background: #E9DAC1;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+
+.loginPartie3 {
+    width: 640px;
+    height: 580px;
+    background: #E9DAC1;
+    position: absolute;
+    left: 607px;
+    top: 142px;
+}
+
+.registerText , .loginText{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.registerLink {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    color: black;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+input {
+    background: none;
+    border: 4px black solid;
+    border-left: 7px #54BAB9 solid;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.inputDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inoutEmailPassword {
+    margin-top: 10px;
+}
+
+.forgetPassword {
+    margin-right: 115px;
+}
+
+.inputDiv label , .inputDiv a {
+    font-size: large;
+}
+
+.submitButton {
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #54BAB9;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 20px;           
+    width: 80%;          
+    max-width: 700px;
+}
+
+
+.divider::before , .divider::after {
+    content: "";
+    flex: 1;             
+    height: 2px;         
+    background: #222;    
+    opacity: 1;
+    border-radius: 2px;
+}
+
+
+.divider span {
+    display: inline-block;
+    margin-top: 10px;
+    background: transparent; 
+    font-weight: 500;
+    color: #111;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.quickLoginButton {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    padding-left: 140px;
+    gap: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.createLinkAccount {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 80px;
+}

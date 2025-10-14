@@ -37,3 +37,33 @@
     margin: 0;
     font-size: medium;
 }
+
+.welcomeText {
+    animation: grandirOpacity0 3s ease-in 1 forwards;
+}
+
+.registerLink:hover {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.forgetPassword:hover , .createLinkAccount:hover {
+    text-decoration: underline;
+}
+
+.submitButton:hover {
+    font-size: large;
+    width: 410px;
+    height: 32px;
+    margin-top: 18px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.quickLoginButton:hover {
+    font-size: large;
+    width: 410px;
+    height: 32px;
+    gap : 18px;
+    box-shadow: 1px 1px 5px black;
+    padding-left: 100px;
+}

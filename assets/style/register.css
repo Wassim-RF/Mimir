@@ -1,0 +1,57 @@
+.registerMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.loginPartie {
+    width: 640px;
+    height: 580px;
+    background: #54BAB9;
+    z-index: 10;
+}
+
+.loginPartie2 {
+    width: 640px;
+    height: 580px;
+    background: #54BAB9;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+.loginPartie3 {
+    width: 640px;
+    height: 580px;
+    background: #54BAB9;
+    position: absolute;
+    left: 307px;
+    top: 142px;
+}
+
+.registerPartie {
+    width: 300px;
+    height: 580px;
+    background: #E9DAC1;
+    z-index: 10;
+}
+
+.registerPartie2 {
+    width: 300px;
+    height: 580px;
+    background: #E9DAC1;
+    position: absolute;
+    left: 940px;
+    top: 150px;
+}
+
+.registerPartie3 {
+    width: 300px;
+    height: 580px;
+    background: #E9DAC1;
+    position: absolute;
+    left: 947px;
+    top: 142px;
+}
