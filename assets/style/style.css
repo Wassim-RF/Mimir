@@ -1,0 +1,75 @@
+body {
+    background: #fbf8f1;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.webTitle {
+    font-weight: 400;
+    font-size: 42px;
+    padding-left: 75px;
+}
+
+.siteHeader {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.webNavBar {
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.pagesLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    font-weight: 100;
+    padding-left: 15px;
+    color: black;
+}
+
+.singinRegisterButtons {
+    margin-right: 40px;
+}
+
+.singinRegister {
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.registerButton {
+    background: #54BAB9;
+}
+
+footer {
+    background: #e9dac1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    position: sticky;
+}
+
+.webTitleFooter {
+    font-weight: 400;
+    font-size: 42px;
+}

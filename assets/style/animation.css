@@ -1,0 +1,39 @@
+.pagesLinks:hover {
+    font-size: 110%;
+    color: #54BAB9;
+}
+
+.searchButton:hover {
+    width: 65px;
+    height: 65px;
+    margin-right: 5px;
+}
+
+@keyframes grandirOpacity0 {
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes leftToRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.headerCircle {
+    animation: grandirOpacity0 1s ease-in 1 forwards;
+}
+
+.homePageMainText {
+    animation: leftToRight 4s ease-in 1 forwards;
+}
+
+.singinRegister:hover {
+    width: 80px;
+    height: 35px;
+    margin: 0;
+    font-size: medium;
+}

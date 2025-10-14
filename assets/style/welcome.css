@@ -1,0 +1,19 @@
+.welcomeText {
+    font-size: 60px;
+    text-align: center;
+}
+
+.welcomeWord {
+    color: #54BAB9;
+}
+
+.codeWord {
+    color: #251FD4;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 405px;
+}
