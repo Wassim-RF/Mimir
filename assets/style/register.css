@@ -55,3 +55,112 @@
     left: 947px;
     top: 142px;
 }
+
+.registerText , .loginText{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.loginLink {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    color: black;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.quickLoginButton {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    padding-left: 140px;
+    gap: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 20px;           
+    width: 80%;          
+    max-width: 700px;
+}
+
+
+.divider::before , .divider::after {
+    content: "";
+    flex: 1;             
+    height: 2px;         
+    background: #222;    
+    opacity: 1;
+    border-radius: 2px;
+}
+
+
+.divider span {
+    display: inline-block;
+    margin-top: 10px;
+    background: transparent; 
+    font-weight: 500;
+    color: #111;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+input[type="email"] , input[type="password"] , input[type="text"] {
+    background: none;
+    border: 4px black solid;
+    border-left: 7px #E9DAC1 solid;
+    outline: none;
+    width: 230px;
+    height: 30px;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.createAccount {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.selectDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.selectDiv select {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.checkboxDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button {
+    width: 400px;
+    height: 24px;
+    margin-top: 20px;
+    border-radius:  7px;
+    margin-left: 30px;
+}

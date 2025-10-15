@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/animation.css">
     <link rel="stylesheet" href="assets/style/homeHeader.css">
+    <link rel="stylesheet" href="assets/style/home.css">
     <link rel="stylesheet" href="assets/style/phone.css">
 </head>
 <body>
@@ -27,7 +28,7 @@
     <main>
         <header class="homePageMainHeader">
             <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 432 432" class="headerCircle"><path fill="#54bab9" d="M213.5 3q88.5 0 151 62.5T427 216t-62.5 150.5t-151 62.5t-151-62.5T0 216T62.5 65.5T213.5 3z"/></svg>
+                <div id="circle" class="headerCircle"></div>
                 <p class="homePageMainText">A Reader Lives a<br> Thousand Lives Before<br> he Dies.</p>
             </div>
 
@@ -38,13 +39,109 @@
                 </button>
             </div>
         </header>
-        <div></div>
-        <div></div>
+        <section class="booksSection">
+            <p class="recentlyAddedText">Recently added</p>
+            <div class="recentlyAddedBooks">
+                <div class="book">
+                    <img src="/assets/img/1.png">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">The Wicked</p>
+                        <p>Gillen Mckelvie</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/2.jpg">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">Harry Potter</p>
+                        <p>J.K. Rowling</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/3.jpg">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">Work : A life well wasted</p>
+                        <p>Robet Ashley</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/4.jpg">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">Howl’s Moving Castle</p>
+                        <p>Hayao Miyazaki</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/5.jpg">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">The jungle book</p>
+                        <p>Man3rf</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/6.jpg">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">Frozen</p>
+                        <p>Man3r</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/7.png">
+                    <div style="margin-left: 10px;" >
+                        <p class="bookName">Die Hard</p>
+                        <p>man3r</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/8.jpg">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">The evil dead</p>
+                        <p>Man3rf</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <img src="assets/img/9.jpg">
+                    <div style="margin-left: 10px;">
+                        <p class="bookName">The last of us</p>
+                        <p>Man3rf</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="allBooks.html" class="allButtonDiv">
+                    <button class="allButton">All Button →</button>
+                </a>
+            </div>
+        </section>
+        <section class="bookOfTheWeekSection">
+            <p class="bookOfTheText">Book Of The Week</p>
+            <div class="bookOfTHeweek">
+                <div class="bookOfTheWeekDiv">
+                    <img src="assets/img/1.png">
+                    <div style="margin-left: 30px;">
+                        <p style="margin-top: 100px; margin-bottom: 12px; font-size: xx-large;">The Wicked</p>
+                        <p style="margin-bottom: 50px; color: #DEA331;">Gillen Mckelvie</p>
+                        <p>A teen looks to impress some girls by sneaking into the woods to find a house where a witch is said to live. He and his companions find out the hard way that the legend of the child-eating witch is true and she is back and on the hunt. a teen looks to impress some girls by sneaking into the woods to find a house where a witch is said to live. He and his companions find out the hard way that the legend of the child-eating witch is true and she is back and on the hunt.</p>
+                    </div>
+            </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <p class="webTitleFooter">Mimir</p>
         <p style="color: #caaf8d;">Youcode Library Books List</p>
     </footer>
+    <script>
+        // const circle = document.getElementById('circle');
+
+        // function mouseMove(mousePlace) {
+        //     circle.style.width = "30px";
+        //     circle.style.height = "30px";
+        //     circle.style.left = mousePlace.clientX + 'px';
+        //     circle.style.top = mousePlace.clientY + 'px';
+        // }
+
+        // document.addEventListener("mouseover", mouseMove);
+    </script>
 </body>
 </html>

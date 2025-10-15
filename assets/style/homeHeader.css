@@ -19,8 +19,12 @@ main {
 }
 
 .headerCircle {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: #54bab9;
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     top: 175px;
     left:  547px;
     opacity: 0;
