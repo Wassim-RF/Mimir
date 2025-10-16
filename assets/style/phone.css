@@ -1,18 +1,196 @@
-@media (max-width : 600px) {
-    .siteHeader {
-        padding-top: 20px;
+@media (max-width : 700px) {
+    .webTitle {
+        font-weight: 200;
+        font-size: 21px;
+        padding-left: 45px;
     }
 
+    .siteHeader {
+        width: 600px;
+    }
 
-    .webTitle {
-        padding-left: 15px;
+    .webNavBar {
+        padding-right: 20px;
     }
 
     .pagesLinks {
-        width: 50px;
-        height: 25px;
+        width: 60px;
         font-weight: 75;
-        padding-left: 15px;
     }
 
+    .homePageMainText {
+        font-weight: 250;
+        font-size: 30px;
+    }
+
+    .headerCircle {
+        display: none;
+    }
+
+    .searchBookBar {
+        width: 300px;
+        height: 40px;
+    }
+
+    .bookSearch {
+        width: 200px;
+        height: 25px;
+    }
+
+    .searchButton {
+        width: 35px;
+        height: 35px;
+    }
+
+    .searchButton:hover {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* home page */
+    .recentlyAddedBooks {
+        margin-left: 50px;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+    .book {
+        width: 170px;
+        height: 290px;
+    }
+
+    .book img {
+        width: 150px;
+        height: 250px;
+    }
+
+    .bookOfTheWeekDiv {
+        width: 550px;
+        height: 500px;
+    }
+
+    .bookOfTheWeekDiv img {
+        width: 150px;
+        height: 250px;
+    }
+
+    /* login */
+    .registerPartie {
+        width: 100px;
+    }
+    
+    .registerPartie2 {
+        display: none;
+    }
+
+    .registerPartie3 {
+        display: none;
+    }
+
+    .loginPartie {
+        width: 300px;
+    }
+
+    .loginPartie2 {
+        display: none;
+    }
+
+    .loginPartie3 {
+        display: none;
+    }
+
+    .registerText , .loginText{
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .inoutEmailPassword {
+        width: 200px;
+        height: 20px;
+        padding-left: 5px;
+    }
+
+    .loginPartie form {
+        margin-left: 50px;
+    }
+
+    .submitButton {
+        width: 200px;
+        height: 20px;
+    }
+
+    .quickLoginButton {
+        width: 200px;
+        height: 20px;
+        padding-left: 10px;
+    }
+
+    .quickLoginButton:hover {
+        width: 210px;
+        height: 22px;
+        font-size: medium;
+        padding-left: 0;
+    }
+
+    .submitButton:hover {
+        width: 210px;
+        height: 22px;
+    }
+
+    .forgetPassword {
+        margin-right: 10px;
+    } 
+
+    .createLinkAccount {
+        margin-right: 20px;
+    }
+
+    /* REgister */
+    .loginPartie {
+        width: 300px;
+        height: 700px;
+    }
+
+    .registerPartie {
+        width: 100px;
+        height: 700px;
+    }
+
+    .loginPartie2 {
+        display: none;
+    }
+
+    .loginPartie3 {
+        display: none;
+    }
+
+    .registerPartie2 {
+        display: none;
+    }
+
+    .registerPartie3 {
+        display: none;
+    }
+
+    .createAccount {
+        grid-template-columns: 1fr;
+    }
+
+    .requsestBookDiv {
+        height: 1000px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .requsestBookDiv>.req{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .requsestBookDiv>.req input {
+        width: 170px;
+        height: 35px;
+        margin-right: 15px;
+    }
 }

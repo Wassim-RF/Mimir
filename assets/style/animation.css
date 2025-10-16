@@ -74,3 +74,34 @@
     margin-top: 17px;
     box-shadow: 1px 1px 5px black;
 }
+
+.book:hover {
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 10px;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+.book:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes zoomIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.bookOfTheWeekDiv {
+    opacity: 0;
+    transform: scale(0);
+    animation: zoomIn 1.5s ease-out forwards;
+}

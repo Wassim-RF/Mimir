@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mimir</title>
-    <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="stylesheet" href="assets/style/animation.css">
-    <link rel="stylesheet" href="assets/style/homeHeader.css">
-    <link rel="stylesheet" href="assets/style/phone.css">
-    <link rel="stylesheet" href="assets/style/request.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="assets/style/animation.css" />
+    <link rel="stylesheet" href="assets/style/homeHeader.css" />
+    <link rel="stylesheet" href="assets/style/phone.css"/>
+    <link rel="stylesheet" href="assets/style/request.css" />
+  </head>
+  <body>
     <header class="siteHeader">
-        <p class="webTitle">Mimir</p>
-        <nav class="webNavBar">
-            <a href="home.html" class="pagesLinks">Home</a>
-            <a href="allBooks.html" class="pagesLinks">All books</a>
-            <a href="requstbook.html" class="pagesLinks">Request book</a>
-            <a href="profile.html" class="pagesLinks">Profile</a>
-        </nav>
-        <div class="singinRegisterButtons">
-            <a href="login.html"><button class="singinRegister">Log  in</button></a>
-            <a href="register.html"><button class="singinRegister registerButton">Register</button></a>
-        </div>
+      <p class="webTitle">Mimir</p>
+      <nav class="webNavBar">
+        <a href="home.html" class="pagesLinks">Home</a>
+        <a href="allBooks.html" class="pagesLinks">All books</a>
+        <a href="requstbook.html" class="pagesLinks">Request book</a>
+        <a href="profile.html" class="pagesLinks">Profile</a>
+      </nav>
+      <div class="singinRegisterButtons">
+        <a href="login.html"><button class="singinRegister">Log in</button></a>
+        <a href="register.html"
+          ><button class="singinRegister registerButton">Register</button></a
+        >
+      </div>
     </header>
 
     <main>
-        <header class="homePageMainHeader">
-            <p class="homePageMainText">Fill this form to request a book</p>
-        </header>
-        <div>
-            <form>
-                <div class="requestBookForm">
-                    <label for=""></label>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="text" name="" id="">
-                </div>
-            </form>
-            <button></button>
+      <header class="homePageMainHeader">
+        <p class="homePageMainText">Fill this form to request a book</p>
+      </header>
+      <div class="container">
+        <div class="requsestBookDiv">
+          <form class="req">
+            <div>
+              <label>Book Name :</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label>Telephone number :</label>
+              <input type="text"/>
+            </div>
+            <div>
+              <label>Region name : </label>
+              <input type="text" />
+            </div>
+            <div>
+              <label>City name :</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label>Adresse :</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label>Discount code : </label>
+              <input type="text" />
+            </div>
+          </form>
+          <div class="requestBookButton">
+            <button>Request Book</button>
+          </div>
         </div>
+      </div>
     </main>
 
     <footer>
-        <p class="webTitleFooter">Mimir</p>
-        <p style="color: #caaf8d;">Youcode Library Books List</p>
+      <p class="webTitleFooter">Mimir</p>
+      <p style="color: #caaf8d">Youcode Library Books List</p>
     </footer>
-</body>
+  </body>
 </html>

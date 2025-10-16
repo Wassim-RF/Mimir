@@ -1,0 +1,73 @@
+.TheBook {
+    display: flex;
+    justify-content: center;
+}
+
+.TheBookDiv {
+    width: 1430px;
+    height: 520px;
+    background: #E9DAC1;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.TheBookSection img {
+    height: 520px;
+}
+
+.commentSection .comment {
+    background: #E9DAC1;
+    width: 1430px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-bottom: 50px;
+}
+
+.comment textarea {
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.athorCommrntDiv {
+    background: #54BAB9;
+    width: 650px;
+    height: 440px;
+}
+
+.commentDiv {
+    margin-top: 40px;
+    margin-left: 35px
+}
+
+.bookSuggestionSection {
+    display: flex;
+    gap: 300px;
+}
+
+.recentlyAddedText {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+.recentlyAddedBooks {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.book {
+    width: 250px;
+    height: 400px;
+}
+
+.book img {
+    width: 240px;
+    height: 330px;
+    margin-left: 5px;
+}

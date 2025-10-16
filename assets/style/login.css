@@ -76,7 +76,7 @@ form {
     margin-left: 100px;
 }
 
-input {
+.inoutEmailPassword {
     background: none;
     border: 4px black solid;
     border-left: 7px #54BAB9 solid;

@@ -1,0 +1,45 @@
+main header img {
+    border-radius: 50%;
+}
+
+.infoDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+}
+
+.dateDave {
+    margin-right: 170px;
+    margin-top: 25px;
+    line-height: 45px;
+}
+
+.date {
+    margin-left: 30px;
+}
+
+.profileBookText {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+
+.profilBooks {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.book {
+    width: 250px;
+    height: 400px;
+}
+
+.book img {
+    width: 240px;
+    height: 330px;
+    margin-left: 5px;
+}
